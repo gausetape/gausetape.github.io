@@ -1,8 +1,8 @@
 body{
   background-color: #87ceeb;
   border-style: solid;
-  border-left-width: 30px;
-  border-right-width: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 h1{
   text-align: center;
