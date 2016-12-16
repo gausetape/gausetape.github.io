@@ -1,6 +1,10 @@
 body{
-  background-color: #87ceeb
+  background-color: #87ceeb;
+  border-style: solid;
+  border-left-width: 30px;
+  border-right-width: 30px;
 }
 h1{
-  background-color: #fffafa
+  text-align: center;
+  background-color: #fffafa;
 }
