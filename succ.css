@@ -8,3 +8,8 @@ h1{
   text-align: center;
   background-color: #fffafa;
 }
+div.const{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
