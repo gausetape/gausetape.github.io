@@ -9,6 +9,7 @@ body{
 h1{
   text-align: center;
   background-color: #fffafa;
+  box-sizing: padding-box;
 }
 img.rahb{
   display: block;
