@@ -1,56 +1,67 @@
+<!DOCTYPE html>
+<html>
 <h1>How much of a slut are you?</h1>
 
+<head>
 <script>
-var $_GET = {};
-if(document.location.toString().indexOf('?') !== -1) {
-    var query = document.location
-                   .toString()
-                   // get the query string
-                   .replace(/^.*?\?/, '')
-                   // and remove any existing hash string (thanks, @vrijdenker)
-                   .replace(/#.*$/, '')
-                   .split('&');
-
-    for(var i=0, l=query.length; i<l; i++) {
-       var aux = decodeURIComponent(query[i]).split('=');
-       $_GET[aux[0]] = aux[1];
+function validateForm() {
+    var 1 = document.forms["myForm"]["gender"].value+
+        
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
     }
 }
-//get the 'index' query parameter
-alert($_GET['index']);
 </script>
  
-<form name="myForm" action="/slut.html" method="get">
+<form name="myForm" action="/slut.html" method="get" onsubmit="return validateForm()">
   1.  What gender are you?<br>
-  <input type="radio" name="gender" value="0"> Guy<br>
-  <input type="radio" name="gender" value="1"> Girl<br>
-  <input type="radio" name="gender" value="2"> I don't even know anymore <br><br>
+  <input type="radio" name="1" value="0"> Guy<br>
+  <input type="radio" name="1" value="1"> Girl<br>
+  <input type="radio" name="1" value="2"> I don't even know anymore <br><br>
      
     2. What gender are you sexually attracted to?<br>
-  <input type="radio" name="sex" value="1"> Guys<br>
-  <input type="radio" name="sex" value="0"> Girls<br>
-  <input type="radio" name="sex" value="2"> Ayy just toss me some genitals and I'm down <br><br>
+  <input type="radio" name="2" value="1"> Guys<br>
+  <input type="radio" name="2" value="0"> Girls<br>
+  <input type="radio" name="2" value="2"> Ayy just toss me some genitals and I'm down <br><br>
   
     3. What state are you from?<br>
-  <input type="radio" name="state" value="2"> Virgina<br>
-  <input type="radio" name="state" value="1"> New Jersey<br>
-  <input type="radio" name="state" value="0"> A state with resaonable people <br><br>
+  <input type="radio" name="3" value="2"> Virgina<br>
+  <input type="radio" name="3" value="1"> New Jersey<br>
+  <input type="radio" name="3" value="0"> A state with resaonable people <br><br>
   
    4. Do you use condoms?<br>
-  <input type="radio" name="condom" value="0"> Yes, safe sex is important!<br>
-  <input type="radio" name="condom" value="1"> Only when it's random hookups<br>
-  <input type="radio" name="condom" value="2"> Stds are made up by Chinese condom manufacturers <br><br>
+  <input type="radio" name="4" value="0"> Yes, safe sex is important!<br>
+  <input type="radio" name="4" value="1"> Only when it's random hookups<br>
+  <input type="radio" name="4" value="2"> Stds are made up by Chinese condom manufacturers <br><br>
   
      5. What do prefer your lover to call you? <br>
-  <input type="radio" name="lover" value="1"> "Babe"<br>
-  <input type="radio" name="lover" value="0"> "Honey"<br>
-  <input type="radio" name="lover" value="2"> "Shut the fuck up you dumb cunt!" <br><br>
+  <input type="radio" name="5" value="1"> "Babe"<br>
+  <input type="radio" name="5" value="0"> "Honey"<br>
+  <input type="radio" name="5" value="2"> "Shut the fuck up you dumb cunt!" <br><br>
   
-       5. A car almost hit you today, how do you feel about it? <br>
-  <input type="radio" name="car" value="0"> I'm so happy I'm alive. My friends and family love me!<br>
-  <input type="radio" name="car" value="1"> What an asshole. That driver should of been looking where he's going!<br>
-  <input type="radio" name="car" value="2"> I wish it hit me! <br><br>
+       6. A car almost hit you today, how do you feel about it? <br>
+  <input type="radio" name="6" value="0"> I'm so happy I'm alive. My friends and family love me!<br>
+  <input type="radio" name="6" value="1"> What an asshole. That driver should of been looking where he's going!<br>
+  <input type="radio" name="6" value="2"> I wish it hit me! <br><br>
+  
+    7. Do you do anal? <br>
+  <input type="radio" name="7" value="0"> No, that is where I poop!<br>
+  <input type="radio" name="7" value="1"> I've tried it and I don't like it.<br>
+  <input type="radio" name="7" value="2"> Only when my pussy is too sore.<br><br>
+  
+    8. How many signifigant others do you have? <br>
+  <input type="radio" name="8" value="1"> 0<br>
+  <input type="radio" name="8" value="0"> 1<br>
+  <input type="radio" name="8" value="2"> 2<br><br>
+  
+9. If you were going to date an animal, which one would you date? <br>
+  <input type="radio" name="9" value="0"> Christopher Jefferson, because I enjoy boneless wings<br>
+  <input type="radio" name="9" value="1"> Constatine Kokis... that jawline!<br>
+  <input type="radio" name="9" value="2"> Colin McGovern, cause I hate myself<br><br>    
   
   <input type="submit" value="Submit" name="submit">
   
 </form>
+
+</html>
