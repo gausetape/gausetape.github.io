@@ -5,15 +5,23 @@
 <head>
 <script>
 function validateForm() {
-    var 1 = document.forms["myForm"]["gender"].value+
-        
-    if (x == "") {
-        alert("Name must be filled out");
-        return false;
-    }
+    var 1 = document.forms["myForm"]["1"].value;
+    var 2 = document.forms["myForm"]["2"].value;
+    var 3= document.forms["myForm"]["3"].value;
+    var 4 = document.forms["myForm"]["4"].value;
+    var 5 = document.forms["myForm"]["5"].value;
+    var 6 = document.forms["myForm"]["6"].value;
+    var 7 = document.forms["myForm"]["7"].value;
+    var 8 = document.forms["myForm"]["8"].value;
+    var 9 = document.forms["myForm"]["9"].value;
+  
+    document.getElementById("all").innerHTML = 1;
+  
 }
 </script>
  
+  <div id="all"></div>  
+  
 <form name="myForm" action="/slut.html" method="get" onsubmit="return validateForm()">
   1.  What gender are you?<br>
   <input type="radio" name="1" value="0"> Guy<br>
