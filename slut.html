@@ -9,7 +9,7 @@ function validateForm() {
     document.getElementById("part1").style.display = 'none'; 
     document.getElementById("part2").style.display = 'block';
     
-    /*var a = document.forms["myForm"]["1"].value;
+    var a = document.forms["myForm"]["1"].value;
     var b = document.forms["myForm"]["2"].value;
     var c = document.forms["myForm"]["3"].value;
     var d = document.forms["myForm"]["4"].value;
@@ -17,7 +17,7 @@ function validateForm() {
     var f = document.forms["myForm"]["6"].value;
     var g = document.forms["myForm"]["7"].value;
     var h = document.forms["myForm"]["8"].value;
-    var i = document.forms["myForm"]["9"].value;*/
+    var i = document.forms["myForm"]["9"].value;
     
 }
 
@@ -31,7 +31,7 @@ function validateForm() {
     
  <p id="part1"> 
   
-<form name="myForm" action="/slut.html" method="POST" onsubmit="return validateForm()">
+<form name="myForm" action="/slut.html" method="GET" onsubmit="return validateForm()">
   1.  What gender are you?<br>
   <input type="radio" name="1" value="0"> Guy<br>
   <input type="radio" name="1" value="1"> Girl<br>
